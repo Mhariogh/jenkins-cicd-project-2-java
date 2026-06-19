@@ -11,5 +11,7 @@ public class App {
         System.out.println("CI/CD mini project (Java)");
         System.out.println("2 + 3 = " + calculator.add(2, 3));
         System.out.println("5 - 1 = " + calculator.subtract(5, 1));
+	System.out.println("3 * 4 = " + calculator.multiply(3, 4));
+
     }
 }
