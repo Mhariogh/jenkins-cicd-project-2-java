@@ -1,3 +1,4 @@
+
 # Brings up two containers:
 #   1. jenkins-docker -> a Docker daemon (Docker-in-Docker) the pipeline builds into
 #   2. jenkins        -> the Jenkins server, built from ./jenkins/Dockerfile
@@ -28,7 +29,7 @@ services:
 
   jenkins:
     build:
-      context: ./jenkins
+      context: .
       dockerfile: Dockerfile
     container_name: jenkins
     restart: unless-stopped
